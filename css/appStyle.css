@@ -266,7 +266,7 @@ section {
   padding-right: 0;
 }
 .testimonials .wrapper {
-  background-attachment: fixed; */
+  background-attachment: fixed; 
   padding: 0 !important;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -717,79 +717,35 @@ more than 768px is desktop */
   } 
 } */
 
-/*# sourceMappingURL=style.css.map */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* SLIDE ANIMATION ON SCROLL  */
+.slideanim {visibility:hidden;}
+  .slideup {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  } 
+}
