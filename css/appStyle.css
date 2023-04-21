@@ -9,7 +9,7 @@
   /* font-family: Arial, Helvetica, sans-serif; */
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
+  -webkit-box-sizing: border-box !important;
   box-sizing: border-box;
   text-decoration: none;
   outline: none;
@@ -264,6 +264,9 @@ section {
   font-size: 18px;
   color: #888080;
   border-bottom: 1px solid gray;
+}
+.quotation .form-box form select{
+  width: 100%;
 }
 .quotation .form-box form option{
   /* background:#666766; */
@@ -665,6 +668,7 @@ more than 768px is desktop */
 
   .header {
     padding: 0 2rem;
+    box-sizing: border-box;
   }
 
   section {
