@@ -497,7 +497,7 @@ section {
   line-height: 1.4 !important;
 }
 .bookingcards .card .details li{
-  font-size: 16px !important;
+  font-size: 14px !important;
   margin-bottom: 4px;
   margin-top: 4px;
   font-weight: 300;
@@ -742,6 +742,9 @@ more than 768px is desktop */
   }
   .invite{
     padding: 2% 5vw;
+  }
+  .bookingcards .card .details li {
+    font-size: 12px !important;
   }
   .photobook .heading h1{
     font-size: 22px;
