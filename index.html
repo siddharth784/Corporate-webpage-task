@@ -65,10 +65,13 @@
 
 <section class="quotation">
     <div class="row">
-        <div class="iframe-box col-lg-8 col-md-8 col-sm-12" style="height:70vh; overflow-y: scroll;">
-            <div class='sk-ww-pinterest-board' data-embed-id='135335'></div><script src='https://widgets.sociablekit.com/pinterest-board/widget.js' async defer></script>
-            
+        <div class="iframe-box col-lg-8 col-md-8 col-sm-12">
+            <div style="height:75vh; overflow-y: scroll;">
+                <div class='sk-ww-pinterest-board' data-embed-id='135335'></div><script src='https://widgets.sociablekit.com/pinterest-board/widget.js' async defer></script>
+            </div>
+            <div class="followbtn">Follow on <span><i class="fa-brands fa-pinterest"></i>Pinterest</span></div>
         </div>
+
         <div class="form-box col-lg-4 col-md-4 col-sm-12">
             <div class="heading">
                 <h1>Get a quotation from FliqaIndia</h1>
@@ -103,6 +106,16 @@
                     <i class="fas fa-clock fa-2xl"></i>
                     <input type="number" placeholder="No. of Days" id="days">
                 </div>
+
+                <div class="input_field" style="display:block; text-align:center; font-size:17px !important; background:#f5f5f5; border-radius:14px; padding:4px;">
+                    <!-- <label for="type">Academy Type</label> -->
+                    <select id="type" style="background:#f5f5f5; color:gray;">
+                        <option disabled selected style="color:#adadad;">Package you are looking for</option>
+                        <option value="platinum">Platinum(All occasions covered)</option>
+                        <option value="gold">Gold(Engagement & Wedding covered)</option>
+                        <option value="silver">Silver(Only Wedding covered)</option>
+                    </select>
+                </div>   
             </form>
 
             <div class="submitbtn">SUBMIT</div>
