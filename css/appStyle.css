@@ -647,8 +647,7 @@ section {
     text-transform: uppercase;
     cursor: pointer;
 }
-
-.credit {
+.footer .credit {
   font-size: 1.4rem;
   text-align: center;
   padding: 1rem;
