@@ -647,6 +647,9 @@ section {
     text-transform: uppercase;
     cursor: pointer;
 }
+.footer iframe{
+  padding-right:10px;
+}
 .footer .credit {
   font-size: 1.4rem;
   text-align: center;
@@ -748,6 +751,9 @@ more than 768px is desktop */
   }
   .photobook .heading h1{
     font-size: 22px;
+  }
+  .footer iframe{
+    padding: 10px !important;
   }
 }
 
